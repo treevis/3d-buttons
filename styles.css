@@ -1,0 +1,88 @@
+body {
+	background: #fff;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.btn,
+.btn span,
+.btn input[type=submit] {
+	background: url(buttons-3d-off.png) no-repeat;
+	border: 0;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+button.btn {
+    border: 0;
+}
+
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:focus,
+.btn:active {
+	color: #fff;
+	cursor: pointer;
+}
+
+/* main */
+.btn {
+	background-position: left bottom;
+	display: inline-block;
+	font-size: 10px;
+	padding: 0 0 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/* bottom */
+.btn span {
+	background-position: right -100px;
+	display: block;
+	padding: 0 4px 0 0;
+}
+/* left */
+.btn span span {
+	background-position: 0 0;
+	padding: 10px 4px 1px 13px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:hover span,
+.btn:focus span,
+.btn:active span { background-image: url(buttons-3d-on.png); }
+
+
+/* Form Submit Buttons */
+.btn input[type=submit] {
+	border: 0;
+	font-family: arial, helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.btn input[type=submit]:hover,
+.btn input[type=submit]:focus,
+.btn input[type=submit]:active { color: #fff; }
+
+/* left */
+.btn input[type=submit] {
+	background-position: 0 0;
+	font-size: 10px;
+	padding: 10px 4px 1px 13px;
+	text-transform: uppercase;
+}
+
+.btn:hover span input[type=submit],
+.btn:focus span input[type=submit],
+.btn:active span input[type=submit] {
+	background-image: url(buttons-3d-on.png);
+	cursor: pointer;
+}
+
+
+.btn-lrg,
+.btn-lrg input[type=submit] { font-size: 12px; }
+
